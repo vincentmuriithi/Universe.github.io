@@ -1,8 +1,15 @@
 body{
-    #background-color: silver;
+    background-color: silver;
     background-image: url(universes.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
+}
+h1{
+    font-size: 40px;
+}
+p{
+    font-size: 25px;
 }
 .div2 a{
     color:green;
@@ -12,3 +19,49 @@ body{
     font-style: italic;
     font-weight: 100;
 }
+/*.div3{
+    margin:0px;
+    background-image: url("lover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.div3 embed{
+    width:700px;
+    height: 500px;
+    margin-left: 200px;
+    
+ }
+ .div3 h1{
+    text-align: center;
+    color: violet;
+    text-shadow: 5px 3px 5px orange;
+ }
+ a:hover{
+    color: red;
+ }
+ a:visited{
+    color:green;
+ }
+ .div4 p{
+    font-size: 25px;
+    font-family:serif;
+    font-style:normal;
+    }
+ 
+.div5 embed{
+     width:100%;
+    height: 500px;
+   margin:0px;
+   padding:0px;
+   border:0px;
+ }
+.div5 h1{
+    color: gold;
+    text-align: center;
+}
+.div5 p.strong{
+    color: orange;
+}
+    
+ 
+ 
