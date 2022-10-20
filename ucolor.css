@@ -1,0 +1,14 @@
+body{
+    #background-color: silver;
+    background-image: url(universes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.div2 a{
+    color:green;
+}
+.div1 h1{
+    color: red;
+    font-style: italic;
+    font-weight: 100;
+}
