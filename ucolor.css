@@ -1,9 +1,17 @@
 body{
+    
+    margin:auto;
     background-color: silver;
     background-image: url(universes.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     
+}
+.div0{
+ margin: auto;
+ padding:0px;
+ border:none;
 }
 h1{
     font-size: 40px;
@@ -26,7 +34,9 @@ p{
     background-size: cover;
 }*/
 .div3 embed{
-    width:700px;
+ margin:auto;
+ padding:0px;
+    width:50%;
     height: 500px;
     margin-left: 200px;
     
@@ -51,7 +61,7 @@ p{
 .div5 embed{
      width:100%;
     height: 500px;
-   margin:0px;
+   margin:auto;
    padding:0px;
    border:0px;
  }
@@ -63,9 +73,10 @@ p{
     color: orange;
 }
 .div5 img{
-    width:500px;
-    height:250px;
-    margin-left: 350px;
+ margin: auto;
+    width:50%;
+    height:150px;
+    margin-left:100px;
 }
     
  
