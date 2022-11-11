@@ -353,12 +353,12 @@ display:none;
    }
    25%{
       background-color: green;
-      transform: translate(300%, 0px);
+      transform: translate(287%, 0px);
       border-radius:50%;
    }
    50%{
       background-color: lime;
-      transform: translate(300%,540px);
+      transform: translate(287%,540px);
    }
    75%{
       background-color: purple;
