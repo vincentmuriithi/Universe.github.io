@@ -345,29 +345,8 @@ display:none;
    
    
 }
-   @keyframes square{
-   
-   0%{
-      background-color: red;
-      transform: translate(0px);
-   }
-   25%{
-      background-color: green;
-      transform: translate(287%, 0px);
-      border-radius:50%;
-   }
-   50%{
-      background-color: lime;
-      transform: translate(287%,540px);
-   }
-   75%{
-      background-color: purple;
-      transform: translate(0px,540px);
-   }
-   100%{
-      background-color: red;
-      transform: translate(0px);
-      border-radius:0px;
+   #div1{
+      display:none;
    }
 
    }
