@@ -169,18 +169,19 @@ a:active{
    animation-play-state: running;
 }
 @keyframes square{
+   
    0%{
       background-color: red;
       transform: translate(0px);
    }
    25%{
       background-color: green;
-      transform: translate(1230px, 0px);
+      transform: translate(1230%, 0px);
       border-radius:50%;
    }
    50%{
       background-color: lime;
-      transform: translate(1230px ,540px);
+      transform: translate(1230%,540px);
    }
    75%{
       background-color: purple;
@@ -311,7 +312,7 @@ a:active{
     25%{
      
       border-color:blue;
-      transform: rotate(90deg);}
+       transform: rotate(90deg);}
      50%{
       
       border-color:grey;
@@ -325,3 +326,97 @@ a:active{
       border-color:white;
       transform: rotate(0deg);}
 }
+@media screen and (max-width:600px){
+  .div1{
+   width:100%;
+  }
+   #circle{
+      width:50px;
+      height:50px;
+      margin-left:10px;
+      margin-top:50px;
+}
+#insquare{
+   width:12.5px;
+   height:12.5px;
+}
+#div0{
+display:none;
+   
+   
+}
+   @keyframes square{
+   
+   0%{
+      background-color: red;
+      transform: translate(0px);
+   }
+   25%{
+      background-color: green;
+      transform: translate(340%, 0px);
+      border-radius:50%;
+   }
+   50%{
+      background-color: lime;
+      transform: translate(340%,540px);
+   }
+   75%{
+      background-color: purple;
+      transform: translate(0px,540px);
+   }
+   100%{
+      background-color: red;
+      transform: translate(0px);
+      border-radius:0px;
+   }
+
+   }
+    
+   
+
+/*@media screen, (min-width:700px) and (max-width:1200px){
+   .div1{
+   width:100%;
+  }
+   #circle{
+      width:100px;
+      height:100px;
+      margin-left:40px;
+      margin-top:100px;
+}
+#insquare{
+   width:25px;
+   height:25px;
+}
+#div0{
+display:none;
+   
+   
+}
+   @keyframes square{
+   
+   0%{
+      background-color: red;
+      transform: translate(0px);
+   }
+   25%{
+      background-color: green;
+      transform: translate(680%, 0px);
+      border-radius:50%;
+   }
+   50%{
+      background-color: lime;
+      transform: translate(680%,540px);
+   }
+   75%{
+      background-color: purple;
+      transform: translate(0px,540px);
+   }
+   100%{
+      background-color: red;
+      transform: translate(0px);
+      border-radius:0px;
+   }
+   
+   
+}*/
