@@ -106,7 +106,7 @@ p{
 }
 @media (max-width:600px){
  .div3 embed{
-  margin-left:auto;
+  margin:auto;
   width:80%
  }
 }
