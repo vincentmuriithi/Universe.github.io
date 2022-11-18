@@ -8,6 +8,29 @@ body{
     background-attachment: fixed;
     
 }
+.nav-list ul{
+   display:flex;
+   justify-content: space-between;
+   flex-shrink:1;
+   flex-grow:1;
+   gap: 1rem;
+   flex-wrap: wrap;
+   list-style-type: none;
+  
+}
+a{
+ color: yellow;
+ text-decoration: none;
+}
+a:hover{
+ color: red;
+}
+a:link{
+ color: gold;
+}
+a:active{
+ color: maroon;
+}
 .div0{
  margin: auto;
  padding:0px;
@@ -35,6 +58,10 @@ p{
     background-size: cover;
 }*/
 .div3 embed{
+ display: flex;
+ flex-shrink:1;
+ flex-grow:1;
+ 
  margin:auto;
  padding:0px;
     width:50%;
@@ -47,11 +74,9 @@ p{
     color: violet;
     text-shadow: 5px 3px 5px orange;
  }
- a:hover{
-    color: red;
- }
- a:visited{
-    color:green;
+
+ 
+ 
  }
  .div4 p{
     font-size: 25px;
@@ -78,6 +103,11 @@ p{
     width:50%;
     height:150px;
     margin-left:100px;
+}
+@media (max-width:600px){
+ .div3 embed{
+  margin-left: 100px;
+ }
 }
     
  

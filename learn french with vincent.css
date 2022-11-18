@@ -7,6 +7,25 @@ nav{
     
    
 }
+.nav-list ul{
+   display:flex;
+   justify-content: space-between;
+   flex-shrink:1;
+   flex-grow:1;
+   gap: 1rem;
+   flex-wrap: wrap;
+   list-style-type: none;
+}
+a{
+   text-decoration:none;
+}
+a:hover{
+   color: red;
+   
+}
+a:active{
+   color: #23897f;
+}
 ul{
    list-style-type:cjk-ideographic;
 }

@@ -1,0 +1,41 @@
+body{
+#background-image: url("code.mp4");
+background-color:#2e7273;
+background-size:cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+z-index:3;
+}
+.div0{
+    z-index:2;
+}
+h1{
+    color: transparent;
+    background: url("fxp1.gif");
+    background-repeat: no-repeat;
+    -webkit-background-clip: text;
+   -op-background-clip: text;
+}
+.nav-list ul{
+    display:flex;
+    flex-shrink:1;
+    flex-grow:1;
+    flex-wrap:wrap;
+    flex:1;
+    justify-content: space-between;
+    gap: rem1;
+    list-style-type:none;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:purple;
+}
+a:link{
+    color:gold;
+}
