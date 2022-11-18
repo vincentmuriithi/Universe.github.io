@@ -107,7 +107,8 @@ p{
 @media (max-width:600px){
  .div3 embed{
   margin:auto;
-  width:80%
+  width:80%;
+  border:none;
  }
 }
     
