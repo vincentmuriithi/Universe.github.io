@@ -77,7 +77,7 @@ p{
 
  
  
- }
+ 
  .div4 p{
     font-size: 25px;
     font-family:serif;
@@ -106,7 +106,8 @@ p{
 }
 @media (max-width:600px){
  .div3 embed{
-  margin-left: 100px;
+  margin-left:auto;
+  width:80%
  }
 }
     
