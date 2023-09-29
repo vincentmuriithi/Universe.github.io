@@ -31,7 +31,7 @@ window.onload = () => {
     let blue_rect_width = 40;
     let coin_rect_length = 20;
     let coin_rect_width = 30;
-
+    
 
 
 
@@ -41,12 +41,7 @@ window.onload = () => {
     $(document).on("keyup", (event) => {
         keys[event.key] = false;
     });
-    up.onmousedown = function() {
-        dir = 4;
-         if (dir === 4 && y > 0) {
-        y -= speed * timePassed;
-         }
-    }
+    up.onmousedown = () => dir = 4;
     down.onmousedown = () => dir = 3;
     left.onmousedown = () => dir = 2;
     right.onmousedown = () => dir = 1;
@@ -68,9 +63,9 @@ window.onload = () => {
     const key_checker = () => {
         if (keys["ArrowUp"] && y > 0)
             y -= speed * timePassed;
-        else if (keys["ArrowDown"] && y + 40 < canvas.height)
+        else if (keys["ArrowDown"] && y + blue_rect_width < canvas.height)
             y += speed * timePassed;
-        else if (keys["ArrowRight"] && x + 30 < canvas.width)
+        else if (keys["ArrowRight"] && x + blue_rect_length < canvas.width)
             x += speed * timePassed;
         else if (keys["ArrowLeft"] && x > 0)
             x -= speed * timePassed;

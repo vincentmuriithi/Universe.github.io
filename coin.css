@@ -36,3 +36,11 @@
     50% { color: green;}
     100% { color: pink;}
 }
+@media (max-width: 600px)
+{
+ #canvas{
+    height: 600px;
+    width: 100%;
+    border: solid 2px black;
+}   
+}
