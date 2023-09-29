@@ -37,7 +37,7 @@ window.onload = () => {
     {
         if (mediaQuery.matches)
         {
-            canvas.height = 600;
+            canvas.height = 550;
         }
     } 
     );
@@ -60,6 +60,7 @@ window.onload = () => {
     left.onmouseup = () => { dir = 0; }
     right.onmouseup = () => { dir = 0; }
 
+     up.ontouchstart = () => dir = 4;
     down.ontouchstart = () => dir = 3;
     left.ontouchstart = () => dir = 2;
     right.ontouchstart = () => dir = 1;

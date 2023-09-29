@@ -39,7 +39,7 @@
 @media (max-width: 600px)
 {
  #canvas{
-    height: 600px;
+    height: 550px;
     width: 100%;
     border: solid 2px black;
 }   
