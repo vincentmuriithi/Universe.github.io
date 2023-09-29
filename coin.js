@@ -31,7 +31,16 @@ window.onload = () => {
     let blue_rect_width = 40;
     let coin_rect_length = 20;
     let coin_rect_width = 30;
-    
+
+    const mediaQuery = window.matchMedia("(max-width: 600px)");
+    mediaQuery.addListener( (event) =>
+    {
+        if (mediaQuery.matches)
+        {
+            canvas.height = 600;
+        }
+    } 
+    );
 
 
 
