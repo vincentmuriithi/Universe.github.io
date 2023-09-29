@@ -36,7 +36,7 @@
     50% { color: green;}
     100% { color: pink;}
 }
-@media (max-width: 600px)
+@media (max-width: 600px) and (orientation: portrait)
 {
  #canvas{
     height: 550px;

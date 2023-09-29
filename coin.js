@@ -32,7 +32,7 @@ window.onload = () => {
     let coin_rect_length = 20;
     let coin_rect_width = 30;
 
-    const mediaQuery = window.matchMedia("(max-width: 600px)");
+    const mediaQuery = window.matchMedia("(max-width: 600px) and (orientation: portrait)");
     mediaQuery.addListener( (event) =>
     {
         if (mediaQuery.matches)
@@ -40,7 +40,6 @@ window.onload = () => {
             canvas.height = 550;
             canvas.width = 600;
             coin_rect_width = 20;
-coin_rect_length = 20;
             blue_rect_length = 35;
             blue_rect_width = 35;
         }
