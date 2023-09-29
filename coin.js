@@ -110,11 +110,11 @@ coin_rect_length = 10;
         ctx.fillStyle = "yellow";
         ctx.fill();
 
-        if (dir === 1 && x + coin_rect_length < 640) {
+        if (dir === 1 && x + coin_rect_length < canvas.width) {
             x += speed * timePassed;
         } else if (dir === 2 && x > 0) {
             x -= speed * timePassed;
-        } else if (dir === 3 && y + coin_rect_width < 400) {
+        } else if (dir === 3 && y + coin_rect_width < canvas.height) {
             y += speed * timePassed;
         } else if (dir === 4 && y > 0) {
             y -= speed * timePassed;
