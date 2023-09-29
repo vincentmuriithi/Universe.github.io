@@ -38,6 +38,10 @@ window.onload = () => {
         if (mediaQuery.matches)
         {
             canvas.height = 550;
+            canvas.width = 600;
+            coin_rect_width = 20;
+            blue_rect_length = 35;
+            blue_rect_width = 35;
         }
     } 
     );
@@ -60,7 +64,7 @@ window.onload = () => {
     left.onmouseup = () => { dir = 0; }
     right.onmouseup = () => { dir = 0; }
 
-     up.ontouchstart = () => dir = 4;
+    up.ontouchstart = () => dir = 4;
     down.ontouchstart = () => dir = 3;
     left.ontouchstart = () => dir = 2;
     right.ontouchstart = () => dir = 1;
