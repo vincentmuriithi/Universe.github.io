@@ -42,5 +42,13 @@
     height: 550px;
     width: 100%;
     border: solid 2px black;
-}   
+}
+#button_aligner
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
 }
