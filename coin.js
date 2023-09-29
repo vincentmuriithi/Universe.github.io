@@ -39,9 +39,10 @@ window.onload = () => {
         {
             canvas.height = 550;
             canvas.width = 600;
-            coin_rect_width = 20;
-            blue_rect_length = 35;
-            blue_rect_width = 35;
+            coin_rect_width = 10;
+coin_rect_length = 10;
+            blue_rect_length = 20;
+            blue_rect_width = 20;
         }
     } 
     );
